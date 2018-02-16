@@ -1,0 +1,54 @@
+img {
+  border-style: solid;
+  border-color: white;
+}
+
+h1 {
+  font-family: Flavors;
+  font-size: 80px;
+  color: white;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 25px;
+  background-image: url("http://backgroundlabs.com/wp-content/uploads/2013/02/paw-print-seamless-pattern.png");
+
+  width: 320px;
+  padding: 10px 5px 20px 20px;
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.4);
+}
+
+.description {
+  font-family: "Nunito", sans-serif;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 25px;
+  border-color: gray;
+  background-color: white;
+  width: 280px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.blurb {
+  font-style: italic;
+}
+
+span {
+  font-weight: bold;
+}
+
+.photo {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
