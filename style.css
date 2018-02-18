@@ -1,9 +1,5 @@
-img {
-  border-style: solid;
-  border-color: white;
-}
 
-h1 {
+.headline {
   font-family: Flavors;
   font-size: 80px;
   color: white;
@@ -34,7 +30,7 @@ h1 {
   padding: 10px;
 }
 
-ul {
+.list {
   list-style-type: none;
   list-style: none;
   padding-left: 0;
@@ -49,6 +45,8 @@ span {
 }
 
 .photo {
+  border-style: solid;
+  border-color: white;
   cursor: pointer;
   margin-bottom: 20px;
 }
